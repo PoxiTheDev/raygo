@@ -1,0 +1,18 @@
+Guide for Raygo
+
+Commands:
+    raygo doctor - checks your dependencies
+    raygo new example_name - creates a new project
+    raygo build - builds the project
+    raygo run - builds & runs the project
+
+Project structure:
+    example_name/
+        build/
+        src/
+            main.c
+        .gitignore
+        compile_flags.txt
+
+That's basically it. You mastered raygo!
+(NOTE: I may add things, if you pull a new version of raygo you should always look at the guide.txt, since whenever im gonna update this its probably gonna be a bigger update.)
