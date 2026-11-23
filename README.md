@@ -1,9 +1,14 @@
 # Raygo
 
 Cargo-like project for raylib on linux i did for myself because im sick and tired of the way i have to do it everytime.
+
 Essentially what this does is it inits a git repo, makes an example raylib project, and checks if you have all the dependencies.
-Also i am not responsible for whatever happens while using this thing,i give you no warranty this will even work.
+
+Also i am not responsible for whatever happens while using this thing,i give you no warranty this will even work. Use this code in whatever way you like as long as its for a great cause and credits me.
+
 SOME PARTS OF THE CODE, SPECIFICALLY SOME OF sys.lua HAS BEEN MADE WITH HELP OF GENERATIVE AI.
+
+If anything does not work here you can reach me at @PoxiDesigns on twitter or just create an issue.
 
 ## Setup instructions
 
