@@ -11,7 +11,7 @@ SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 SRC_DIR="$SCRIPT_DIR/src"
 ENTRY="$SRC_DIR/main.lua"
 
-# Make sure Lua can get the stuffw from src/
+# Make sure Lua can get the stuff from src/
 export LUA_PATH="$SRC_DIR/?.lua;$SRC_DIR/?/init.lua;${LUA_PATH:-;;}"
 
 if command -v luajit >/dev/null 2>&1; then
