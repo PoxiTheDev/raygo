@@ -11,12 +11,12 @@ SOME PARTS OF THE CODE, SPECIFICALLY SOME OF sys.lua HAS BEEN MADE WITH HELP OF 
 
 ### 1. Make raygo run from anywhere without typing out the entire path (OPTIONAL)
   ``` bash
-    chmod +x ~/Documents/raygo/raygo.sh
+    chmod +x ~/raygo/raygo.sh
     mkdir -p ~/.local/bin
     rm -f ~/.local/bin/raygo
     cat <<'EOF' > ~/.local/bin/raygo
     #!/usr/bin/env sh
-    exec /home/poxi/Documents/raygo/raygo.sh "$@"
+    exec /home/username/raygo/raygo.sh "$@"
     EOF
     chmod +x ~/.local/bin/raygo
     hash -r
